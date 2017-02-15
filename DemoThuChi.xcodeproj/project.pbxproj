@@ -7,21 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040470AE1E0A2CCC0016C864 /* ScrDetailDebit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040470AD1E0A2CCC0016C864 /* ScrDetailDebit.swift */; };
+		040470B01E0A66DB0016C864 /* tblListDebitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040470AF1E0A66DB0016C864 /* tblListDebitCell.swift */; };
+		040470B21E0A6A2C0016C864 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040470B11E0A6A2C0016C864 /* CalendarView.swift */; };
+		040F34041E03A99200AD4909 /* BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F34031E03A99200AD4909 /* BaseScrollView.swift */; };
+		040F34061E03A9FF00AD4909 /* AddDebitScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F34051E03A9FF00AD4909 /* AddDebitScrollView.swift */; };
+		040F34081E03BD7E00AD4909 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F34071E03BD7E00AD4909 /* Extention.swift */; };
+		041468161E03D88A004B4F5D /* RegistAddDebitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041468151E03D88A004B4F5D /* RegistAddDebitView.swift */; };
+		041D203A1E01045F00D581BE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D20391E01045F00D581BE /* BaseView.swift */; };
+		041D203C1E01052B00D581BE /* AddDebitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D203B1E01052B00D581BE /* AddDebitView.swift */; };
+		041D203E1E01127400D581BE /* AlertViewCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D203D1E01127400D581BE /* AlertViewCalendar.swift */; };
+		0420DC571E027D090081D515 /* AddDebitCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420DC561E027D090081D515 /* AddDebitCollectViewCell.swift */; };
+		0420DC591E028AA40081D515 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420DC581E028AA40081D515 /* MenuBarView.swift */; };
+		0420DC5C1E02DBB90081D515 /* menuBarCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420DC5B1E02DBB90081D515 /* menuBarCollectViewCell.swift */; };
+		0420DC5E1E02DD070081D515 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420DC5D1E02DD070081D515 /* BaseCollectionViewCell.swift */; };
+		0421CF8D1E096BC600A0F02B /* InfoDebitScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421CF8C1E096BC600A0F02B /* InfoDebitScrollView.swift */; };
+		0421CF8F1E09780600A0F02B /* SearchDebtorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421CF8E1E09780600A0F02B /* SearchDebtorView.swift */; };
+		042EA3CD1E06861800440383 /* AddDebtsCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EA3CC1E06861800440383 /* AddDebtsCollectViewCell.swift */; };
+		042EA3CF1E068C4700440383 /* InfoDebtorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EA3CE1E068C4700440383 /* InfoDebtorView.swift */; };
+		045DF4381E1A76EB00E1588B /* ScrRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF4371E1A76EB00E1588B /* ScrRegister.swift */; };
+		045EEFF51E16C2C500B9787B /* ScrWellCome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EEFF41E16C2C500B9787B /* ScrWellCome.swift */; };
+		049D0BCF1E1E45E8009AFD69 /* ProfileCollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D0BCE1E1E45E8009AFD69 /* ProfileCollectViewCell.swift */; };
 		04C98CE11DFFDF780053CE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CE01DFFDF780053CE1D /* AppDelegate.swift */; };
-		04C98CE31DFFDF780053CE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CE21DFFDF780053CE1D /* ViewController.swift */; };
 		04C98CE61DFFDF780053CE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C98CE41DFFDF780053CE1D /* Main.storyboard */; };
 		04C98CE81DFFDF780053CE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C98CE71DFFDF780053CE1D /* Assets.xcassets */; };
 		04C98CEB1DFFDF780053CE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C98CE91DFFDF780053CE1D /* LaunchScreen.storyboard */; };
+		04C98CF31DFFDF9C0053CE1D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CF21DFFDF9C0053CE1D /* BaseViewController.swift */; };
+		04C98CF51DFFE0500053CE1D /* ScrDebit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CF41DFFE0500053CE1D /* ScrDebit.swift */; };
+		04C98CF81DFFE1DE0053CE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C98CF71DFFE1DE0053CE1D /* GoogleService-Info.plist */; };
+		04C98CFD1DFFEA6F0053CE1D /* tblListDebtorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CFC1DFFEA6F0053CE1D /* tblListDebtorCell.swift */; };
+		04C98CFF1DFFF0D90053CE1D /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98CFE1DFFF0D90053CE1D /* Connection.swift */; };
+		04C98D011E00025F0053CE1D /* Debtor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C98D001E00025F0053CE1D /* Debtor.swift */; };
+		04CA479D1E0BD3C50063BAD1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA479C1E0BD3C50063BAD1 /* AlertView.swift */; };
+		04DA38661E23855800BF0895 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA38651E23855800BF0895 /* ChangePasswordView.swift */; };
+		04E30E4A1E19FB2000E9A88D /* ScrLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30E491E19FB2000E9A88D /* ScrLogin.swift */; };
+		E370C6E3FB0B23BCFD234156 /* Pods_DemoThuChi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F27FF7A02003DAD5D963D /* Pods_DemoThuChi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040470AD1E0A2CCC0016C864 /* ScrDetailDebit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrDetailDebit.swift; sourceTree = "<group>"; };
+		040470AF1E0A66DB0016C864 /* tblListDebitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblListDebitCell.swift; sourceTree = "<group>"; };
+		040470B11E0A6A2C0016C864 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		040F34031E03A99200AD4909 /* BaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScrollView.swift; sourceTree = "<group>"; };
+		040F34051E03A9FF00AD4909 /* AddDebitScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDebitScrollView.swift; sourceTree = "<group>"; };
+		040F34071E03BD7E00AD4909 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		041468151E03D88A004B4F5D /* RegistAddDebitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistAddDebitView.swift; sourceTree = "<group>"; };
+		041D20391E01045F00D581BE /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		041D203B1E01052B00D581BE /* AddDebitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDebitView.swift; sourceTree = "<group>"; };
+		041D203D1E01127400D581BE /* AlertViewCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewCalendar.swift; sourceTree = "<group>"; };
+		0420DC561E027D090081D515 /* AddDebitCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDebitCollectViewCell.swift; sourceTree = "<group>"; };
+		0420DC581E028AA40081D515 /* MenuBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		0420DC5B1E02DBB90081D515 /* menuBarCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBarCollectViewCell.swift; sourceTree = "<group>"; };
+		0420DC5D1E02DD070081D515 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		0421CF8C1E096BC600A0F02B /* InfoDebitScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDebitScrollView.swift; sourceTree = "<group>"; };
+		0421CF8E1E09780600A0F02B /* SearchDebtorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDebtorView.swift; sourceTree = "<group>"; };
+		042EA3CC1E06861800440383 /* AddDebtsCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDebtsCollectViewCell.swift; sourceTree = "<group>"; };
+		042EA3CE1E068C4700440383 /* InfoDebtorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDebtorView.swift; sourceTree = "<group>"; };
+		045DF4371E1A76EB00E1588B /* ScrRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrRegister.swift; sourceTree = "<group>"; };
+		045EEFF41E16C2C500B9787B /* ScrWellCome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrWellCome.swift; sourceTree = "<group>"; };
+		049D0BCE1E1E45E8009AFD69 /* ProfileCollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCollectViewCell.swift; sourceTree = "<group>"; };
 		04C98CDD1DFFDF780053CE1D /* DemoThuChi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoThuChi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C98CE01DFFDF780053CE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04C98CE21DFFDF780053CE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C98CE51DFFDF780053CE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C98CE71DFFDF780053CE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C98CEA1DFFDF780053CE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C98CEC1DFFDF780053CE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C98CF21DFFDF9C0053CE1D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04C98CF41DFFE0500053CE1D /* ScrDebit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrDebit.swift; sourceTree = "<group>"; };
+		04C98CF71DFFE1DE0053CE1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04C98CFC1DFFEA6F0053CE1D /* tblListDebtorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblListDebtorCell.swift; sourceTree = "<group>"; };
+		04C98CFE1DFFF0D90053CE1D /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		04C98D001E00025F0053CE1D /* Debtor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debtor.swift; sourceTree = "<group>"; };
+		04CA479C1E0BD3C50063BAD1 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		04DA38651E23855800BF0895 /* ChangePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		04E30E481E19F97F00E9A88D /* DemoThuChi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoThuChi.entitlements; sourceTree = "<group>"; };
+		04E30E491E19FB2000E9A88D /* ScrLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrLogin.swift; sourceTree = "<group>"; };
+		1E6F27FF7A02003DAD5D963D /* Pods_DemoThuChi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoThuChi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369081F90612685F9DADC433 /* Pods-DemoThuChi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoThuChi.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoThuChi/Pods-DemoThuChi.release.xcconfig"; sourceTree = "<group>"; };
+		7B2F8C2D6289A630AF2A6561 /* Pods-DemoThuChi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoThuChi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoThuChi/Pods-DemoThuChi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +92,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E370C6E3FB0B23BCFD234156 /* Pods_DemoThuChi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040F34021E03A59600AD4909 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				040F34071E03BD7E00AD4909 /* Extention.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+		0420DC5A1E02DB410081D515 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04C98CFC1DFFEA6F0053CE1D /* tblListDebtorCell.swift */,
+				0420DC5D1E02DD070081D515 /* BaseCollectionViewCell.swift */,
+				0420DC5B1E02DBB90081D515 /* menuBarCollectViewCell.swift */,
+				0420DC561E027D090081D515 /* AddDebitCollectViewCell.swift */,
+				042EA3CC1E06861800440383 /* AddDebtsCollectViewCell.swift */,
+				040470AF1E0A66DB0016C864 /* tblListDebitCell.swift */,
+				049D0BCE1E1E45E8009AFD69 /* ProfileCollectViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		04C98CD41DFFDF780053CE1D = {
 			isa = PBXGroup;
 			children = (
 				04C98CDF1DFFDF780053CE1D /* DemoThuChi */,
 				04C98CDE1DFFDF780053CE1D /* Products */,
+				72BD262AAAEAD08D892CEA21 /* Pods */,
+				D898BBDCEE9B9A66CBC79D44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +142,87 @@
 		04C98CDF1DFFDF780053CE1D /* DemoThuChi */ = {
 			isa = PBXGroup;
 			children = (
-				04C98CE01DFFDF780053CE1D /* AppDelegate.swift */,
-				04C98CE21DFFDF780053CE1D /* ViewController.swift */,
-				04C98CE41DFFDF780053CE1D /* Main.storyboard */,
-				04C98CE71DFFDF780053CE1D /* Assets.xcassets */,
-				04C98CE91DFFDF780053CE1D /* LaunchScreen.storyboard */,
-				04C98CEC1DFFDF780053CE1D /* Info.plist */,
+				04E30E481E19F97F00E9A88D /* DemoThuChi.entitlements */,
+				040F34021E03A59600AD4909 /* Extention */,
+				04C98CFB1DFFE2770053CE1D /* Model */,
+				04C98CFA1DFFE2010053CE1D /* View */,
+				04C98CF91DFFE1EF0053CE1D /* Controller */,
+				04C98CF61DFFE1730053CE1D /* Support */,
 			);
 			path = DemoThuChi;
+			sourceTree = "<group>";
+		};
+		04C98CF61DFFE1730053CE1D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				04C98CF71DFFE1DE0053CE1D /* GoogleService-Info.plist */,
+				04C98CE71DFFDF780053CE1D /* Assets.xcassets */,
+				04C98CEC1DFFDF780053CE1D /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		04C98CF91DFFE1EF0053CE1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C98CF41DFFE0500053CE1D /* ScrDebit.swift */,
+				04C98CF21DFFDF9C0053CE1D /* BaseViewController.swift */,
+				04C98CE01DFFDF780053CE1D /* AppDelegate.swift */,
+				040470AD1E0A2CCC0016C864 /* ScrDetailDebit.swift */,
+				045EEFF41E16C2C500B9787B /* ScrWellCome.swift */,
+				04E30E491E19FB2000E9A88D /* ScrLogin.swift */,
+				045DF4371E1A76EB00E1588B /* ScrRegister.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04C98CFA1DFFE2010053CE1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041468151E03D88A004B4F5D /* RegistAddDebitView.swift */,
+				042EA3CE1E068C4700440383 /* InfoDebtorView.swift */,
+				04DA38651E23855800BF0895 /* ChangePasswordView.swift */,
+				0420DC5A1E02DB410081D515 /* Cell */,
+				04C98CE91DFFDF780053CE1D /* LaunchScreen.storyboard */,
+				04C98CE41DFFDF780053CE1D /* Main.storyboard */,
+				041D20391E01045F00D581BE /* BaseView.swift */,
+				041D203B1E01052B00D581BE /* AddDebitView.swift */,
+				041D203D1E01127400D581BE /* AlertViewCalendar.swift */,
+				0420DC581E028AA40081D515 /* MenuBarView.swift */,
+				040F34031E03A99200AD4909 /* BaseScrollView.swift */,
+				0421CF8C1E096BC600A0F02B /* InfoDebitScrollView.swift */,
+				040F34051E03A9FF00AD4909 /* AddDebitScrollView.swift */,
+				0421CF8E1E09780600A0F02B /* SearchDebtorView.swift */,
+				040470B11E0A6A2C0016C864 /* CalendarView.swift */,
+				04CA479C1E0BD3C50063BAD1 /* AlertView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04C98CFB1DFFE2770053CE1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C98CFE1DFFF0D90053CE1D /* Connection.swift */,
+				04C98D001E00025F0053CE1D /* Debtor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72BD262AAAEAD08D892CEA21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B2F8C2D6289A630AF2A6561 /* Pods-DemoThuChi.debug.xcconfig */,
+				369081F90612685F9DADC433 /* Pods-DemoThuChi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D898BBDCEE9B9A66CBC79D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F27FF7A02003DAD5D963D /* Pods_DemoThuChi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C98CEF1DFFDF780053CE1D /* Build configuration list for PBXNativeTarget "DemoThuChi" */;
 			buildPhases = (
+				035D2944D13F6641A0B2FA3B /* [CP] Check Pods Manifest.lock */,
 				04C98CD91DFFDF780053CE1D /* Sources */,
 				04C98CDA1DFFDF780053CE1D /* Frameworks */,
 				04C98CDB1DFFDF780053CE1D /* Resources */,
+				44ED1855C1DD9DBBB818B4D8 /* [CP] Embed Pods Frameworks */,
+				BED85DCCD3EFF4FC3385B416 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +255,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Huỳnh Công Thái";
 				TargetAttributes = {
 					04C98CDC1DFFDF780053CE1D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 97UGPS2289;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C98CEB1DFFDF780053CE1D /* LaunchScreen.storyboard in Resources */,
+				04C98CF81DFFE1DE0053CE1D /* GoogleService-Info.plist in Resources */,
 				04C98CE81DFFDF780053CE1D /* Assets.xcassets in Resources */,
 				04C98CE61DFFDF780053CE1D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +302,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035D2944D13F6641A0B2FA3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44ED1855C1DD9DBBB818B4D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoThuChi/Pods-DemoThuChi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED85DCCD3EFF4FC3385B416 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoThuChi/Pods-DemoThuChi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C98CD91DFFDF780053CE1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C98CE31DFFDF780053CE1D /* ViewController.swift in Sources */,
+				0420DC571E027D090081D515 /* AddDebitCollectViewCell.swift in Sources */,
+				04C98CFD1DFFEA6F0053CE1D /* tblListDebtorCell.swift in Sources */,
+				040470B21E0A6A2C0016C864 /* CalendarView.swift in Sources */,
+				0420DC5C1E02DBB90081D515 /* menuBarCollectViewCell.swift in Sources */,
+				042EA3CF1E068C4700440383 /* InfoDebtorView.swift in Sources */,
+				045DF4381E1A76EB00E1588B /* ScrRegister.swift in Sources */,
+				04CA479D1E0BD3C50063BAD1 /* AlertView.swift in Sources */,
+				04DA38661E23855800BF0895 /* ChangePasswordView.swift in Sources */,
+				041D203C1E01052B00D581BE /* AddDebitView.swift in Sources */,
+				040F34041E03A99200AD4909 /* BaseScrollView.swift in Sources */,
+				041468161E03D88A004B4F5D /* RegistAddDebitView.swift in Sources */,
+				041D203E1E01127400D581BE /* AlertViewCalendar.swift in Sources */,
+				040470B01E0A66DB0016C864 /* tblListDebitCell.swift in Sources */,
+				04C98D011E00025F0053CE1D /* Debtor.swift in Sources */,
+				040F34061E03A9FF00AD4909 /* AddDebitScrollView.swift in Sources */,
+				040F34081E03BD7E00AD4909 /* Extention.swift in Sources */,
+				04C98CF51DFFE0500053CE1D /* ScrDebit.swift in Sources */,
+				040470AE1E0A2CCC0016C864 /* ScrDetailDebit.swift in Sources */,
+				04C98CFF1DFFF0D90053CE1D /* Connection.swift in Sources */,
+				042EA3CD1E06861800440383 /* AddDebtsCollectViewCell.swift in Sources */,
+				045EEFF51E16C2C500B9787B /* ScrWellCome.swift in Sources */,
+				0421CF8D1E096BC600A0F02B /* InfoDebitScrollView.swift in Sources */,
+				0421CF8F1E09780600A0F02B /* SearchDebtorView.swift in Sources */,
+				04E30E4A1E19FB2000E9A88D /* ScrLogin.swift in Sources */,
+				041D203A1E01045F00D581BE /* BaseView.swift in Sources */,
 				04C98CE11DFFDF780053CE1D /* AppDelegate.swift in Sources */,
+				04C98CF31DFFDF9C0053CE1D /* BaseViewController.swift in Sources */,
+				0420DC5E1E02DD070081D515 /* BaseCollectionViewCell.swift in Sources */,
+				049D0BCF1E1E45E8009AFD69 /* ProfileCollectViewCell.swift in Sources */,
+				0420DC591E028AA40081D515 /* MenuBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +428,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +479,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,25 +507,35 @@
 		};
 		04C98CF01DFFDF780053CE1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2F8C2D6289A630AF2A6561 /* Pods-DemoThuChi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoThuChi/DemoThuChi.entitlements;
+				DEVELOPMENT_TEAM = 97UGPS2289;
 				INFOPLIST_FILE = DemoThuChi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Huynh-Cong-Thai.DemoThuChi";
+				PRODUCT_BUNDLE_IDENTIFIER = datnguyen.com.UngDungThuChi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		04C98CF11DFFDF780053CE1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369081F90612685F9DADC433 /* Pods-DemoThuChi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoThuChi/DemoThuChi.entitlements;
+				DEVELOPMENT_TEAM = 97UGPS2289;
 				INFOPLIST_FILE = DemoThuChi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Huynh-Cong-Thai.DemoThuChi";
+				PRODUCT_BUNDLE_IDENTIFIER = datnguyen.com.UngDungThuChi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +558,7 @@
 				04C98CF11DFFDF780053CE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
